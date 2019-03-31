@@ -1,0 +1,23 @@
+{
+    "name": "cql-dishplug-lib",
+    "version": "0.1.3",
+    "description": "run cassandra cql command on dish service",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yanmingsohu/dish-cql-plug"
+    },
+    "author": "yanming",
+    "license": "ISC",
+    "devDependencies": {
+        "cassandra-driver": "^3.1.5",
+        "dish-lib": "*"
+    },
+    "dependencies": {
+        "configuration-lib": "^0.2.2",
+        "logger-lib": "^0.2.1"
+    }
+}
